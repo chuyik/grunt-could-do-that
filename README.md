@@ -1,2 +1,2 @@
-grunt-could-do-that
+grunt-could-rev
 ===================
