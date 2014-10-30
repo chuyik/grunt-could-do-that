@@ -28,7 +28,6 @@
     "grunt-contrib-cssmin": "~0.9.0",
     "grunt-contrib-htmlmin": "~0.2.0",
     "grunt-contrib-imagemin": "~0.7.1",
-    "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-uglify": "~0.4.0",
     "grunt-contrib-watch": "~0.6.1",
     "grunt-dom-munger": "^3.4.0",
@@ -41,7 +40,6 @@
     "grunt-svgmin": "~0.4.0",
     "grunt-usemin": "~2.1.1",
     "jit-grunt": "^0.5.0",
-    "jshint-stylish": "~0.1.5",
     "open": "~0.0.4",
     "time-grunt": "~0.3.1"
   },
@@ -49,7 +47,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "start": "grunt serve:dist",
+    "start": "node server/app.js",
     "test": "grunt test",
     "update-webdriver": "node node_modules/grunt-protractor-runner/node_modules/protractor/bin/webdriver-manager update"
   },
